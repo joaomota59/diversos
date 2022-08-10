@@ -1,3 +1,6 @@
 # Deep Learning Aplication
 
-* Executar o main.py após instalar as bibliotecas
+## Tutorial
+
+* Instalar as bibliotecas
+* Executar o main.py após 
