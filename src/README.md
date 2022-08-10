@@ -1,1 +1,0 @@
-## projeto de Deep Learning escrito do zero
