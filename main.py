@@ -1,3 +1,5 @@
+#arquivo .py que deve ser executado
+
 from src.Network import Network
 from sklearn import datasets
 
