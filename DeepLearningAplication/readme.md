@@ -3,4 +3,4 @@
 ## Tutorial
 
 * Instalar as bibliotecas
-* Executar o main.py após 
+* Executar o main.py 
