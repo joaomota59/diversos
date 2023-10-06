@@ -1,0 +1,6 @@
+x = input()
+
+if x.__contains__("13"):
+    print(f"{x} es de Mala Suerte")
+else:
+    print(f"{x} NO es de Mala Suerte")
