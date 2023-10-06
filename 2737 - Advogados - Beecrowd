@@ -1,0 +1,5 @@
+SELECT A.NAME,A.CUSTOMERS_NUMBER FROM (select '1' ID,name,customers_number from lawyers where customers_number=(select Max(customers_number) from lawyers)
+UNION
+select '2' ID,name,customers_number from lawyers where customers_number=(select MIN(customers_number) from lawyers)
+UNION
+select '3' ID,'Average', ROUND(AVG(customers_number),0) from lawyers
