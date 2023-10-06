@@ -1,0 +1,17 @@
+while(1):
+    try:
+        hora,minuto = [int(i) for i in input().split(":")]
+    
+        horaBino = hora*60 + minuto + 60
+    
+        horaCino = 8*60
+    
+        if horaCino - horaBino >= 0:
+            print("Atraso maximo: 0")
+        else:
+            dif = horaBino-horaCino
+            if dif > 120:
+                dif = 120
+            print(f"Atraso maximo: {dif}")
+    except:
+        break
