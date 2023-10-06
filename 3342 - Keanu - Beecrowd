@@ -1,0 +1,6 @@
+x = int(input())
+
+if (x%2==0):
+    print(f"{int((x**2)/2)} casas brancas e {int((x**2)/2)} casas pretas")
+else:
+    print(f"{int(((x)**2-1)/2+1)} casas brancas e {int(((x)**2-1)/2)} casas pretas")
